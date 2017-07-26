@@ -1,0 +1,29 @@
+{
+  "name": "fims-jsonld",
+  "version": "0.0.2",
+  "description": "Node module for abstracting usage of jsonld in fims",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fims-tv/fims-jsonld.git"
+  },
+  "keywords": [
+    "fims",
+    "jsonld"
+  ],
+  "author": "Joost Rovers <joost.rovers@glookast.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fims-tv/fims-jsonld/issues"
+  },
+  "homepage": "https://github.com/fims-tv/fims-jsonld#readme",
+  "dependencies": {
+    "jsonld": "^0.4.12"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
