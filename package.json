@@ -1,6 +1,6 @@
 {
   "name": "fims-aws",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node module with boilerplate code for setting up a FIMS AWS lambda service",
   "main": "index.js",
   "scripts": {
