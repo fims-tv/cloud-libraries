@@ -1,2 +1,2 @@
-# fims-jsonld
-Node module for abstracting usage of jsonld in fims
+# fims-core-nodejs
+Node module with type definitions and helper utils for fims
