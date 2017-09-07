@@ -1,7 +1,7 @@
 {
   "name": "fims-core",
   "version": "0.0.3",
-  "description": "Node module for abstracting usage of jsonld in fims",
+  "description": "Node module with type definitions and helper utils for fims",
   "main": "index.js",
   "scripts": {
     "test": "jasmine"
@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/fims-tv/fims-core-nodejs#readme",
   "dependencies": {
-    "jsonld": "^0.4.12"
+    "async": "^2.5.0",
+    "fast-deep-equal": "^1.0.0",
+    "jsonld": "^0.4.12",
+    "request": "^2.81.0"
   },
   "devDependencies": {
     "jasmine": "^2.6.0"
