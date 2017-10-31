@@ -17,7 +17,7 @@ describe("A spec testing the repository-layer", () => {
     var publicUrl = "http://localhost"
 
     var event = {
-        stageVariables: {
+        variables: {
             TableName: tableName,
             PublicUrl: publicUrl
         }
@@ -73,13 +73,13 @@ describe("A spec testing the repository-layer", () => {
 
     it("it does a get of an existing resource but with a different public url", (callback) => {
         var event = {
-            stageVariables: {
+            variables: {
                 TableName: tableName,
                 PublicUrl: "http://remotehost",
             }
         }
 
-        var resId = event.stageVariables.PublicUrl + "/Resource/" + resourceId;
+        var resId = event.variables.PublicUrl + "/Resource/" + resourceId;
 
         FIMS.REP.get(event, resId, (err, res) => {
             expect(err).toBeNull();
