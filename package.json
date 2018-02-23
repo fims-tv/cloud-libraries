@@ -1,0 +1,35 @@
+{
+  "name": "fims-aws",
+  "version": "0.0.8",
+  "description": "Node module with boilerplate code for setting up a FIMS AWS lambda service",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fims-tv/fims-aws-nodejs.git"
+  },
+  "keywords": [
+    "fims",
+    "aws",
+    "lambda"
+  ],
+  "author": "Joost Rovers <joost.rovers@glookast.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fims-tv/fims-aws-nodejs/issues"
+  },
+  "homepage": "https://github.com/fims-tv/fims-aws-nodejs#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "aws-sdk": "^2.141.0",
+    "dynamodb-doc": "^1.0.0",
+    "fims-core": "0.0.8",
+    "request": "^2.83.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
+}
